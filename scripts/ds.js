@@ -33,7 +33,7 @@ export default class MeshUp {
     this.git = await ds.getJson(ds.github);
     this.about = await ds.getJson(ds.about);
     this.quote = (await ds.getJson(ds.quotes)).joke;
-    this.tweets = await ds.getJson(ds.rss2json + ds.twitter);
+    //this.tweets = await ds.getJson(ds.rss2json + ds.twitter);
     this.codepens = await ds.getJson(ds.rss2json + ds.codepen);
   }
 

@@ -156,7 +156,7 @@ export default class UI {
       document.querySelector("#pwidget"),
       document.querySelector("#rwidget")
     );
-    populateUWidget(document.querySelector("#uwidget"));
+    //populateUWidget(document.querySelector("#uwidget"));
     populateCWidget(document.querySelector("#cwidget"));
     populateVisits(document.querySelector("#visits"));
     setInterval(() => {
